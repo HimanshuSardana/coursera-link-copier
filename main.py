@@ -35,4 +35,13 @@ chat_completion = client.chat.completions.create(
     model="llama-3.3-70b",
 )
 
-print(chat_completion.choices[0].message.content)
+HASHTAGS = """
+#TIET
+#ThaparUniversity
+#ThaparOutcomeBasedLearning
+#ThaparCoursera
+#Coursera
+#UCS654_Predictive_Analytics
+"""
+
+print(chat_completion.choices[0].message.content + "\n\n" + HASHTAGS)
