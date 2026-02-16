@@ -1,0 +1,9 @@
+[project]
+name = "coursera-link-copier"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cerebras>=0.0.1",
+]
