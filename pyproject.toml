@@ -6,4 +6,5 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "cerebras>=0.0.1",
+    "playwright>=1.58.0",
 ]
